@@ -1,0 +1,214 @@
+<!--. . . . . . . ._. . . . _ . . . . .
+. ._ __ ___ . __ _| |_ _ __(_)_ .__ . . .
+. | '_ ` _ \ / _` | __| '__|.\ \/ / . . . .
+. | | | | | | (_| | |_| | .|.|> .< _. . .
+. |_| |_| |_|\__,_|\__|_| .|_/_/\_(_) . . . .
+. . . . . . . . . . . . . . . . . . . .-->
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Basic -->
+		<meta charset="utf-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<!-- Mobile Metas -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<!-- Site Metas -->
+		<meta
+			name="keywords"
+			content=""
+		/>
+		<meta
+			name="description"
+			content=""
+		/>
+		<meta
+			name="author"
+			content="M.Faridz Nur Fauzy"
+		/>
+		<link
+			rel="shortcut icon"
+			href=""
+			type="image/x-icon"
+		/>
+		<!-- Stylesheet -->
+		<link
+			rel="stylesheet"
+			href="css/style.css"
+			type="text/css"
+			media="all"
+		/>
+		<!-- Script -->
+		<script
+			src="js/function.js"
+			type="text/javascript"
+			charset="utf-8"
+		></script>
+		<title>Matrix Calculator</title>
+	</head>
+	<body>
+		<header>
+			<nav class="top-navigation">
+				<p class="logo">
+					. . . . . . . . . .<span class="logo-text">_</span>. . . .
+					<span class="logo-text">_</span> . . . . . . <br />. .<span
+						class="logo-text"
+						>_ __ ___</span
+					>
+					. <span class="logo-text">__ _| |_ _ __(_)_</span> .<span class="logo-text"
+						>__</span
+					>
+					. . . .<br />
+					.
+					<span class="logo-text">| '_ ` _ \ / _` | __| '__|</span>.<span
+						class="logo-text"
+						>\ \/ /</span
+					>
+					. . <br />
+					.
+					<span class="logo-text">| | | | | | (_| | |_| |</span>
+					.<span class="logo-text">|</span>.<span class="logo-text">|></span> .<span
+						class="logo-text"
+						>< _</span
+					>. . . .<br />
+					.
+					<span class="logo-text">|_| |_| |_|\__,_|\__|_|</span>
+					.<span class="logo-text">|_/_/\_(_)</span> . . . .<br />
+					. . . . . . . . . . . . . . . . . . . . . .
+				</p>
+				<input
+					type="checkbox"
+					id="burger"
+				/>
+				<label
+					for="burger"
+					class="side-nav"
+				>
+					<ul>
+						<li>
+							<a
+								href="#"
+								class="text"
+								>about</a
+							>
+						</li>
+						<li>
+							<a
+								href="#"
+								class="text"
+								>profile</a
+							>
+						</li>
+						<li class="theme-toggle">
+							<label
+								class="container"
+								id="theme-toggle"
+							>
+								<p>to light mode</p>
+								<svg
+									viewBox="0 0 384 512"
+									class="moon"
+								>
+									<path
+										d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"
+									></path>
+								</svg>
+								<svg
+									viewBox="0 0 512 512"
+									class="sun show"
+								>
+									<path
+										d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"
+									></path>
+								</svg>
+							</label>
+						</li>
+						<li>
+							<a
+								href="https://github.com/eridz"
+								class="icon"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 128 128"
+									id="github"
+								>
+									<g>
+										<path
+											fill-rule="evenodd"
+											d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"
+											clip-rule="evenodd"
+										></path>
+										<path
+											d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm-.743-.55M28.93 94.535c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zm-.575-.618M31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm0 0M34.573 101.373c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm0 0M39.073 103.324c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm0 0M44.016 103.685c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm0 0M48.614 102.903c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"
+										></path>
+									</g>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</label>
+				<label
+					class="hamburger"
+					for="burger"
+				>
+					<svg viewBox="0 0 32 32">
+						<path
+							class="line line-top-bottom"
+							d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+						></path>
+						<path
+							class="line"
+							d="M7 16 27 16"
+						></path>
+					</svg>
+				</label>
+			</nav>
+		</header>
+		<main>
+			<section class="input-matrix">
+				<div class="matrix-wraper"></div>
+				<button
+					type="submit"
+					class="add-matrix"
+				>
+					+
+				</button>
+			</section>
+			<section class="operation">
+				<div
+					class="operan"
+					draggable="true"
+				>
+					drag in here
+				</div>
+				<div class="container-operator">
+					<div class="operator">-</div>
+				</div>
+				<div
+					class="operan"
+					draggable="true"
+				>
+					drag in here
+				</div>
+			</section>
+			<section class="result-matrix">
+			    <div class="step-1"></div>
+				<div class="card"></div>
+				<button class="result">result</button>
+			</section>
+			<section class="explanation"></section>
+		</main>
+	</body>
+	<script
+		src="js/script.js"
+		type="text/javascript"
+		charset="utf-8"
+	></script>
+</html>
